@@ -8,6 +8,7 @@ To enable fair and easy comparison to Movie Gen for future works on these evalua
 - [Movie Gen Video Bench](#movie-gen-video-bench)
 - [Movie Gen Audio Bench](#movie-gen-audio-bench)
 - [License](#license)
+- [Citation](#citation)
 
 ## Movie Gen Video Bench
 Movie Gen Video Bench consists of 1003 prompts that cover all the different testing aspects/concepts:
@@ -49,3 +50,18 @@ Videos with audio and prompts can be [downloaded via this link](https://d1dk99z0
 ## License
 
 The model is licensed under the [CC-BY-NC license](LICENSE)
+
+## Citation
+
+If you find Movie Gen Bench useful, please consider citing:
+```
+@misc{polyak2024moviegencastmedia,
+      title={Movie Gen: A Cast of Media Foundation Models}, 
+      author={Adam Polyak and Amit Zohar and Andrew Brown and Andros Tjandra and Animesh Sinha and Ann Lee and Apoorv Vyas and Bowen Shi and Chih-Yao Ma and Ching-Yao Chuang and David Yan and Dhruv Choudhary and Dingkang Wang and Geet Sethi and Guan Pang and Haoyu Ma and Ishan Misra and Ji Hou and Jialiang Wang and Kiran Jagadeesh and Kunpeng Li and Luxin Zhang and Mannat Singh and Mary Williamson and Matt Le and Matthew Yu and Mitesh Kumar Singh and Peizhao Zhang and Peter Vajda and Quentin Duval and Rohit Girdhar and Roshan Sumbaly and Sai Saketh Rambhatla and Sam Tsai and Samaneh Azadi and Samyak Datta and Sanyuan Chen and Sean Bell and Sharadh Ramaswamy and Shelly Sheynin and Siddharth Bhattacharya and Simran Motwani and Tao Xu and Tianhe Li and Tingbo Hou and Wei-Ning Hsu and Xi Yin and Xiaoliang Dai and Yaniv Taigman and Yaqiao Luo and Yen-Cheng Liu and Yi-Chiao Wu and Yue Zhao and Yuval Kirstain and Zecheng He and Zijian He and Albert Pumarola and Ali Thabet and Artsiom Sanakoyeu and Arun Mallya and Baishan Guo and Boris Araya and Breena Kerr and Carleigh Wood and Ce Liu and Cen Peng and Dimitry Vengertsev and Edgar Schonfeld and Elliot Blanchard and Felix Juefei-Xu and Fraylie Nord and Jeff Liang and John Hoffman and Jonas Kohler and Kaolin Fire and Karthik Sivakumar and Lawrence Chen and Licheng Yu and Luya Gao and Markos Georgopoulos and Rashel Moritz and Sara K. Sampson and Shikai Li and Simone Parmeggiani and Steve Fine and Tara Fowler and Vladan Petrovic and Yuming Du},
+      year={2024},
+      eprint={2410.13720},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.13720}, 
+}
+```
