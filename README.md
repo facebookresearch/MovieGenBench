@@ -34,7 +34,7 @@ Movie Gen Video Bench is also [available on Hugging Face](https://huggingface.co
 
 Movie Gen Audio Bench consists of 527 generated videos and associated sound effects and music prompts
 * It covers various ambient environments (e.g., indoor, urban, nature,transportation) and sound effects (e.g., human, animal, objects).
-* Movie Gen Video is used to generate videos. We additional include video prompts used to generate these videos.
+* Movie Gen Video is used to generate videos. We additionally include video prompts used to generate these videos.
 * It can be used to evaluate sound effect generation and joint sound effect and background music generation.
 * It can be used to evaluate video-to-audio and (text+video)-to-audio generation.
 
