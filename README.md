@@ -26,7 +26,7 @@ Besides a comprehensive coverage of different key testing aspects, the prompts a
 
 ### Download Video Benchmark
 
-The prompt list ```benchmark/MovieGenVideoBench.txt``` is included in this repo, we additionally release the testing concepts and motion level tags for each prompt in ```benchmark/MovieGenVideoBenchWithTag.csv```. The corresponding generated videos (by Movie Gen) can be [downloaded via this link](https://d1dk99z05ygk7h.cloudfront.net/MovieGenVideoBench.tar.gz?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoid3U2MXBwcWkzN214c2R4ZmRsa3QzcHBuIiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZDFkazk5ejA1eWdrN2guY2xvdWRmcm9udC5uZXRcL01vdmllR2VuVmlkZW9CZW5jaC50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3MzQzODA4MTN9fX1dfQ__&Signature=LVdL7x1Skqa3nGMEFIjI09Bq-KgXXxtqUARHQp4qzWjzesZ7k5sbUArzjBp4bt54J6Ywq9OLLcwQUSdUfMmMw2IZw13Oxoi0-Y3JPqtUEszNqfqycA1BV6k4gtKRDlmTkjGqPjn2OEv3YdqqsrZSUPj50y70aqsGhMOvgeD7uYdg3FCUpY26jb7AKWOFDJGZeOm%7EVEKSdqsZdbGdEnNbwYR1-t1j2R0sUmHEPk72TP9lSt2Hpjoy-NihBRK-qah%7EvYXlUEzf2tLKMrqY-1r21Qui6wbGSQmCXJPkwc7y2s4XKf6kskQq1-dntYQDjNIVp-vXWIcFo3dKQ6XTH-Dgyw__&Key-Pair-Id=K15QRJLYKIFSLZ).
+The prompt list ```benchmark/MovieGenVideoBench.txt``` is included in this repo, we additionally release the testing concepts and motion level tags for each prompt in ```benchmark/MovieGenVideoBenchWithTag.csv```. The corresponding generated videos (by Movie Gen) can be [downloaded via this link](https://d14whct5a0wtwm.cloudfront.net/moviegen/MovieGenVideoBench.tar.gz).
 
 Movie Gen Video Bench is also [available on Hugging Face](https://huggingface.co/datasets/meta-ai-for-media-research/movie_gen_video_bench).
 
@@ -41,10 +41,10 @@ Movie Gen Audio Bench consists of 527 generated videos and associated sound effe
 ### Download Audio Benchmark 
 
 ```benchmark/MovieGenAudioBenchSfx.jsonl``` includes the sound effect prompts used for sound effect generation, and additionally video prompts used for generating testing videos. 
-Videos with audio and prompts can be [downloaded via this link](https://d1dk99z05ygk7h.cloudfront.net/MovieGenAudioBenchSfx.tar.gz?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoidDRhdzM0ZmRhanoyNGxvcjE4c3JwbDA0IiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZDFkazk5ejA1eWdrN2guY2xvdWRmcm9udC5uZXRcL01vdmllR2VuQXVkaW9CZW5jaFNmeC50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3MzQzODA4MTN9fX1dfQ__&Signature=NNDf3K4H3ySrOaaf3iTbZp0jhnTBoJJ7lT7xnzQVZJtFhrccFSH0V4AJ7ImZE08eE5roNydFIQsmD7QZY-97oJlreRTDIRxx2WwJpXg%7EiO%7E50z6M63ngCE-tj7ju-Qh1T-5708-Adt7QHdMCSaNY60bjX1nOk1NT1VJf2ayZO-ranar-27jjJppOkgDfU17jR6-nFTJpZ6wP3vOPZ5UnYIgj%7Eq2lKDZoaPGhJzHcA5a%7E8xcz-hpiUb0XzGwOQQ1yOJi9%7EZyjutenuiUdxr2iKEpvz9ADzW%7EaI0KOC138d1hDbLy3OPsQht-sF1xkBZQQhPKJrx-Ra9MHQROZUwb6HQ__&Key-Pair-Id=K15QRJLYKIFSLZ).
+Videos with audio and prompts can be [downloaded via this link](https://d14whct5a0wtwm.cloudfront.net/moviegen/MovieGenAudioBenchSfx.tar.gz).
 
 ```benchmark/MovieGenAudioBenchSfxMusic.jsonl``` includes the sound effect and music prompts used for joint sound effect and background music generation, and additionally video prompts used for generating testing videos.
-Videos with audio and prompts can be [downloaded via this link](https://d1dk99z05ygk7h.cloudfront.net/MovieGenAudioBenchSfxMusic.tar.gz?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoieGhnNnN3eGdzOGh4dmMyejN4ZjBjZXUwIiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZDFkazk5ejA1eWdrN2guY2xvdWRmcm9udC5uZXRcL01vdmllR2VuQXVkaW9CZW5jaFNmeE11c2ljLnRhci5neiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNDM4MDgxM319fV19&Signature=Nh-pFtL0wzwebQLqPfjwl37L-5F8dLG5zq5ZzRL8QzejQ-osdrLM2HzF8hFKJ08k8YTlnkWZMEb9QA4vFSRax4FzBWxnwd13PtSUa1JFhDcqroouNDeH0OFVMdFHEtsvxYTEUayG57bv5qIpCzTlgK2TlpblmrD89UR9ioRblGI7BH4nPH0-Ps1BfMNtxTsdoBEFKnVGxdBmlJf1A4xa6Bv5WYp-ZpJ5NTixyIPw7OaEsdhQSb%7EuQ%7Ekz-ca3XGlRvDqkQF%7EuRb3e-v502q58JziEZE-saHoPcLHqIWWdhtd2OWO8VohRc84Zwfeon5OtnX9940YUZvXt%7Ey-kkPwKeQ__&Key-Pair-Id=K15QRJLYKIFSLZ).
+Videos with audio and prompts can be [downloaded via this link](https://d14whct5a0wtwm.cloudfront.net/moviegen/MovieGenAudioBenchSfxMusic.tar.gz).
 
 
 ## License
